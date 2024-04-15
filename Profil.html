@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Profil - Mon Pense Bête</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body class="accueil">
+        <header>
+            <img src="images/logo.png" alt="logo"> 
+            <a href="Page_Accueil.html">Mon pense-bête</a>
+            <a href="To_do_list.html">To Do List</a>
+            <a href="Dans_mon_frigo.html">Dans mon frigo</a>
+            <a href="Sport.html">Mon Sport</a>
+            <a href="Profil.html">Mon Profil</a>
+        </header>
+    
+        <main>
+            <h1>Votre profil</h1>
+            <section>
+                <form method="get" action="">
+                    <fieldset class="form">
+                        <legend>Vos informations : </legend>
+                        <label for="nom">Votre nom</label> : * <br><input type="text" name="nom" id="nom" placeholder="Ex. Durand" size="30" maxlength="20">
+                        <br><label for="prenom">Votre prénom</label> : * <br><input type="text" name="prenom" id="prenom" placeholder="Ex. Marie" size="30" maxlength="20">
+                        <br><label for="email">Votre e-mail</label> : * <br><input type="email" id="email" placeholder="exemple@hotmail.fr" class="entermail">
+                        <br><label for="naissance">Votre date de naissance</label> : <br><input type="date" id="naissance">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Parlez-moi un peu de vous : </legend>
+                            <p>
+                                Vous êtes :
+                                <input type="radio" name="regime" id="sans" checked> <label for="sans">Sans régime particulier</label>
+                                <input type="radio" name="regime" id="végé"> <label for="végé">Végétarien</label>
+                                <input type="radio" name="regime" id="vegan"> <label for="vegan">Végétalien</label>
+                            </p>
+                            <p>
+                                Vous devez suivre un régime :
+                                <input type="checkbox" name="contraintes" id="gluten"> <label for="gluten">Sans gluten</label>
+                                <input type="checkbox" name="contraintes" id="sucre"> <lavbel for="sucre">Sans sucres transformés</lavbel>
+                                <input type="checkbox" name="contraintes" id="lait"> <label for="lait">Sans lactose</label>
+                            </p>
+                            <p>
+                                <label for="ventres">Combien de personnes à nourrir ?</label>
+                                <input type="number" name="ventres" id="ventres" min="1" max="10">
+                            </p>
+                    </fieldset>
+                    <input type="submit" value="Enregistrer">
+                </form>
+                <p>* : champ obligatoire</p>
+            </section>
+        </main>
+
+        <footer>
+            Me contacter ?
+            <ul class="contacts">
+                <li>par <a href="mailto:MARGOT.PHILIP@HOTMAIL.FR" class="mail"> mail</a></li>
+                <li>par téléphone au <strong>01.23.45.67.89</strong></li>
+            </ul>
+                <form method="get" action="">
+                <label for="conseil">Un conseil pour améliorer mon site ?</label> <br>
+                <textarea name="conseil" id="conseil">Par exemple...</textarea> <br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </footer>
+    </body>
+
+</html>
