@@ -160,7 +160,7 @@ h4 {
     justify-content: center;
     gap: 10px;
     grid-template-columns: 45% 45%;
-    grid-template-rows: 80px 100px 300px 80px 400px 50px;
+    grid-template-rows: 80px 100px 300px 80px 400px 30px;
 }
 
 .exp_h {
