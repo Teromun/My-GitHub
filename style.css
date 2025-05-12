@@ -132,9 +132,7 @@ h2 {
     padding: 3% 13% 5% 13%;
     text-align: justify;
 }
-.hello h3 {
-    font-size: 1.5em;
-}
+
 .hello h4 {
     font-size: 1.3em;
     color: rgb(85, 85, 85);
@@ -162,7 +160,7 @@ h4 {
     justify-content: center;
     gap: 10px;
     grid-template-columns: 45% 45%;
-    grid-template-rows: 80px 100px 300px 80px 300px 50px;
+    grid-template-rows: 80px 100px 300px 80px 400px 50px;
 }
 
 .exp_h {
